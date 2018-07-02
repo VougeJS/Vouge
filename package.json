@@ -1,13 +1,19 @@
 {
   "name": "vouge",
   "version": "0.0.1",
-  "license": "MIT",
+  "description": "Web framework, focus on newest features, based on Vue and CSS Grid",
+  "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VougeJS/Vouge.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.5.16"
   },
