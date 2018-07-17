@@ -18,15 +18,15 @@
     "vue": "^2.5.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "@vue/eslint-config-airbnb": "^3.0.0-rc.3",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.5",
     "@vue/test-utils": "^1.0.0-beta.16",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^23.0.1",
-    "node-sass": "^4.9.0",
+    "babel-jest": "^23.4.0",
+    "node-sass": "^4.9.2",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.16"
   },
@@ -55,6 +55,10 @@
       ],
       "vue/order-in-components": "error",
       "vue/html-indent": [
+        "error",
+        4
+      ],
+      "indent": [
         "error",
         4
       ]
@@ -92,7 +96,7 @@
       "jest-serializer-vue"
     ],
     "testMatch": [
-      "<rootDir>(/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))"
+      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
     ]
   }
 }

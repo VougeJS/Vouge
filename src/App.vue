@@ -1,12 +1,12 @@
 <template>
-	<div>Starting point</div>
+    <div>Starting point</div>
 </template>
 
 <script>
 
 export default {
-  name: 'app',
-  components: {},
+    name: 'app',
+    components: {},
 };
 </script>
 
