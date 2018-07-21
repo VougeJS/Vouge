@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="docs/assets/vouge-logo.png" height="90" alt="Vouge Logo">
+</p>
 
 ## Introduction
 
