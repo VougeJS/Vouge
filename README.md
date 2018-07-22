@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="docs/assets/vouge-logo.png" height="90" alt="Vouge Logo">
+  <a href="https://github.com/VougeJS/Vouge">
+    <img src="docs/assets/vouge-logo.png" height="90" alt="Vouge Logo">
+  </a>
 </p>
 
 ## Introduction
@@ -14,14 +16,14 @@ Vouge is Web UI Library, focus on the newest CSS trends, based on Vue.
 
 ## Documentation
 
-Documentation will be placed in */docs* folder. Later, we will provide web-based documentation.
+Documentation will be placed in [*/docs*](./docs) folder. Later, we will provide web-based documentation.
 
 // TODO
 
 
 ## Installation
 
-You can download bundled Vouge from the [***releases***]() page. We have provided a few  
+You can download bundled Vouge from the [***releases***](https://github.com/VougeJS/Vouge/releases) page. We have provided a few  
 solutions which you can choose. Simple **Vouge + Vue** in one package, **Vouge alone** *(you have to install Vue by yourself)*, and from **command-line**:
 
 ``` bash
@@ -69,7 +71,7 @@ For including styles, you have to put styles into head section of your `index.ht
 
 ## Community Support
 
-Communicate and ask questions on the [Vouge Discord Community]().
+Communicate and ask questions on the [Vouge Discord Community](https://discord.gg/qbqxa8t).
 
 ## Contributing
 
