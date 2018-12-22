@@ -1,8 +1,16 @@
 .DS_Store
 node_modules
 /dist
-
-
+/sandpit/*
+!/sandpit/components/.gitkeep
+!/sandpit/router/.gitkeep
+!/sandpit/assets/vouge_80px.png
+!/sandpit/assets/vouge_100px.png
+!/sandpit/assets/vouge_120px.png
+!/sandpit/index.js
+!/sandpit/index.html
+!/sandpit/App.vue
+!/sandpit/.gitkeep
 # local env files
 .env.local
 .env.*.local

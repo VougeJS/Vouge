@@ -79,6 +79,12 @@ Communicate and ask questions on the [Vouge Discord Community](https://discord.g
 
 ### Contributing Guide
 
+#### JetBrains users
+If you are using JetBrains products, you can (and should) after cloning of repository,
+set `webpack configuration file`, to `build/webpack.config.dev.js` in project settings.
+It will give you better auto-completion experience, and more specifically JetBrains will now resolve `@`, as a valid path to `/src` folder.
+Useful while playing in SandPit.
+
 // TODO
 
 
