@@ -2,12 +2,10 @@
   "name": "vouge",
   "version": "0.0.1",
   "description": "Web framework, focus on newest features, based on Vue and CSS Grid",
+  "author": "Vouge Team",
   "main": "src/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "start": "webpack-dev-server --open --config build/webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,88 +13,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.21"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
-    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
-    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.5",
-    "@vue/cli-service": "^3.0.0-rc.5",
-    "@vue/eslint-config-airbnb": "^3.0.0-rc.5",
-    "@vue/test-utils": "^1.0.0-beta.16",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^23.4.0",
-    "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.16"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/airbnb"
-    ],
-    "rules": {
-      "vue/attribute-hyphenation": [
-        "error",
-        "always"
-      ],
-      "vue/html-end-tags": "error",
-      "vue/html-self-closing": "error",
-      "vue/require-default-prop": "error",
-      "vue/require-prop-types": "error",
-      "vue/attributes-order": "error",
-      "vue/html-quotes": [
-        "error",
-        "double"
-      ],
-      "vue/order-in-components": "error",
-      "vue/html-indent": [
-        "error",
-        4
-      ],
-      "indent": [
-        "error",
-        4
-      ]
-    },
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.vue$": "vue-jest",
-      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/src/$1"
-    },
-    "snapshotSerializers": [
-      "jest-serializer-vue"
-    ],
-    "testMatch": [
-      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
-    ]
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.12"
   }
 }

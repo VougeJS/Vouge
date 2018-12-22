@@ -8,13 +8,11 @@ The directory structure, which will be used forever and ever while coding this g
 ├── docs/                           # documentation files
 ├── tests/                          # unit test files
 │   ├── components/
-│   ├── mocks/
+│   ├── mockups/
 │   └── utils/
 ├── dist/                           # where production build will go (only locally)
-├── dev/                            # testing site components
+├── sandpit/                        # playground for site components
 │   ├── assets/
-│   ├── components/                 # Each component with own file for testing
-│   │   └── button.vue  
 │   ├── App.vue
 │   ├── app.js
 │   ├── router.js
