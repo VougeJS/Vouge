@@ -1,33 +1,31 @@
 # Directory Structure
 
-The directory structure, which will be used forever and ever while coding this great UI Library. But, if you have ideas how we can change it to make it great again, feel free to make an issue and/or pull request with description.
+The directory structure, which will be used forever and ever while coding this great UI Library. But, if you have ideas about how we can change it to make it great again, feel free to make an issue and/or pull request with description.
 
 ```bash
 .
-├── build/                          # webpack config files
+├── build/                          # webpack configuration files
 ├── docs/                           # documentation files
 ├── tests/                          # unit test files
 │   ├── components/
 │   ├── mockups/
 │   └── utils/
-├── dist/                           # where production build will go (only locally)
-├── sandpit/                        # playground for site components
+├── dist/                           # Place of production build (only locally)
+├── sandpit/                        # Development playground
 │   ├── assets/
 │   ├── App.vue
 │   ├── app.js
 │   ├── router.js
 │   └── index.html                    
 ├── src/
-│   ├── components/                 # components 
+│   ├── components/                 # Components place
 │   │   ├── component-name/
 │   │   └── ...
-│   ├── directives/                 # custom vue directives
+│   ├── directives/                 # Custom vue directives
 │   ├── css/
 │   │   ├── mixins/                 # SCSS mixins
-│   │   ├── components              # SCSS components
-│   │   │   ├── _button.scss
-│   │   │   └── ...
-│   │   └── app.scss
+│   │   ├── global.scss             # The required global CSS for proper operation
+│   │   └── variables.scss          # Project-through variables
 │   ├── plugins/
 │   ├── mixins/                     # Vue Mixins
 │   ├── utils/                      # Reusable JavaScript utils

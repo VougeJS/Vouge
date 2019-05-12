@@ -1,6 +1,6 @@
 <template>
   <component
-    :is="tag"
+    :is="as"
     v-bind="handleBind"
     v-on="$listeners"
   >
@@ -11,7 +11,7 @@
 <script>
 export default {
   props: {
-    tag: {
+    as: {
       type: String,
       default: 'a'
     }
@@ -32,6 +32,5 @@ export default {
     @import "../../css/variables";
 
     .button {
-        padding: ;
     }
 </style>

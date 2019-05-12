@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/VougeJS/Vouge">
-    <img src="docs/assets/vouge_120px.png" height="120" alt="Vouge Logo">
+    <img src="docs/assets/vouge_120px.png" height="120" width="422" alt="Vouge Logo">
   </a>
 </p>
 

@@ -1,0 +1,4 @@
+# It's just sandpit, we don't need to force eslint rules.
+/sandpit
+/build
+/docs

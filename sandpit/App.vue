@@ -1,23 +1,23 @@
 <template>
-  <div>
-    <base-button @click="handleClick">
-      Blah
-    </base-button>
-  </div>
+    <div>
+        <base-button @click="handleClick" as="button">
+            Blah
+        </base-button>
+    </div>
 </template>
 
 <script>
-import BaseButton from '../src/components/Button/BaseButton.vue'
+    import BaseButton from '@/components/Button/BaseButton.vue'
 
-export default {
-  components: {
-    BaseButton
-  },
+    export default {
+        components: {
+            BaseButton
+        },
 
-  methods: {
-    handleClick () {
-      console.log('test')
+        methods: {
+            handleClick() {
+                console.log('test')
+            }
+        }
     }
-  }
-}
 </script>
