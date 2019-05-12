@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.4.3",
+    "normalize.css": "^8.0.1",
     "postcss-loader": "^3.0.0",
     "vue": "^2.5.21"
   },
