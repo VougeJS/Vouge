@@ -1,12 +1,3 @@
-function component () {
-  let el = document.createElement('div')
-  el.innerHTML = 'Hello wevee'
-
-  return el
-}
-
-document.body.appendChild(component())
-
 // const Vouge = {
 //     install(Vue, options) {},
 // };

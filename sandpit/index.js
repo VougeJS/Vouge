@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import '@/css/global.scss'
 
 /* eslint-disable-next-line no-new */
 new Vue(

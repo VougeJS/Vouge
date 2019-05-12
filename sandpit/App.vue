@@ -1,19 +1,23 @@
 <template>
   <div>
-    <HelloComponent name="Vouge" />
-    <img
-      src="http://localhost:8080/assets/vouge_80px.png"
-      alt=""
-    >
+    <base-button @click="handleClick">
+      Blah
+    </base-button>
   </div>
 </template>
 
 <script>
-import HelloComponent from '@/components/HelloComponent.vue'
+import BaseButton from '../src/components/Button/BaseButton.vue'
 
 export default {
   components: {
-    HelloComponent
+    BaseButton
+  },
+
+  methods: {
+    handleClick () {
+      console.log('test')
+    }
   }
 }
 </script>
